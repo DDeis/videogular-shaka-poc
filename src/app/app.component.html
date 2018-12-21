@@ -2,8 +2,13 @@
   <vg-overlay-play></vg-overlay-play>
   <vg-buffering></vg-buffering>
 
-  <vg-controls vgFor="my-video" [vgAutohide]="true" [vgAutohideTime]="5">
+  <vg-controls vgFor="my-video" [vgAutohide]="false" [vgAutohideTime]="5">
     <vg-play-pause></vg-play-pause>
+
+    <vg-time-display
+      [vgProperty]="'current'"
+      [vgFormat]="'mm:ss'"
+    ></vg-time-display>
 
     <vg-scrub-bar>
       <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
@@ -12,7 +17,7 @@
 
     <vg-time-display vgProperty="left" vgFormat="mm:ss"></vg-time-display>
 
-    <vg-mute></vg-mute>
+    <vg-mute></vg-mute><vg-volume></vg-volume>
 
     <vg-fullscreen></vg-fullscreen>
   </vg-controls>

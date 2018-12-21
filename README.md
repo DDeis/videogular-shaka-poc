@@ -21,6 +21,8 @@ https://github.com/google/shaka-player
 
 http://videogular.github.io/videogular2/docs/modules/core/vg-media/
 https://github.com/videogular/videogular2
+https://videogular.github.io/videogular2-showroom/
+https://github.com/videogular/videogular2-showroom/tree/master/src/app
 
 # Modules
 
