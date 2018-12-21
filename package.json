@@ -21,7 +21,9 @@
     "@angular/router": "~7.1.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
+    "shaka-player": "^2.5.0-beta2",
     "tslib": "^1.9.0",
+    "videogular2": "^6.3.0",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
@@ -29,9 +31,10 @@
     "@angular/cli": "~7.1.4",
     "@angular/compiler-cli": "~7.1.0",
     "@angular/language-service": "~7.1.0",
-    "@types/node": "~8.9.4",
+    "@types/core-js": "^2.5.0",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
     "codelyzer": "~4.5.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
