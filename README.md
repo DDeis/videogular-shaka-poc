@@ -1,27 +1,59 @@
-# MediaPlayerTest
+# Required dependencies
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+- shaka-player
+- angular
+- rxjs ?
 
-## Development server
+# Useful links
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## HTMLMediaElement
 
-## Code scaffolding
+https://developer.mozilla.org/fr/docs/Web/API/HTMLMediaElement
+https://developer.mozilla.org/fr/docs/Web/Guide/DOM/Events/evenement_medias
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Shaka PLayer
 
-## Build
+https://shaka-player-demo.appspot.com/docs/api/index.html
+https://shaka-player-demo.appspot.com/docs/api/shaka.Player.html
+https://github.com/google/shaka-player
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Videogular
 
-## Running unit tests
+http://videogular.github.io/videogular2/docs/modules/core/vg-media/
+https://github.com/videogular/videogular2
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Modules
 
-## Running end-to-end tests
+- shaka-wrapper -> PlayerInterface
+- fairplay-wrapper -> PlayerInterface
+- core
+- controls
+- theme/sport
+- theme/pass
+- drm
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+# components
 
-## Further help
+- loader
+- title
+- close
+- media
+- playlist
+- playing next
+- sidebar
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- info
+- timing (start hour, end hour, current hour, current timing, end timing, remaining timing)
+
+- controls
+  - play/pause
+  - mute
+  - volume slide
+  - settings
+  - next
+  - prev
+  - restart
+  - fullscreen
+  - scrub bar
+  - step forward
+  - step backward
